@@ -45,7 +45,7 @@ pyautogui.press('enter')
 time.sleep(5)
 
 time.sleep(1)
-pyautogui.typewrite('https://meet.google.com/avh-zyon-emn')
+pyautogui.typewrite('https://meet.google.com/fjd-wcwy-qby')
 pyautogui.press('enter')
 time.sleep(10)
 
