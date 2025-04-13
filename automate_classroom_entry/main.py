@@ -36,7 +36,7 @@ time.sleep(2)
 """
 
 # Open the link in the browser
-time.sleep(900)
+time.sleep(5)
 pyautogui.press('win')
 time.sleep(1)
 pyautogui.write('opera')
