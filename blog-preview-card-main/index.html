@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <style>
+
+    body{
+      background-color: #F2CA50;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-family: "Figtree", sans-serif;
+      font-optical-sizing: auto;
+      
+
+    }
+    main{
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px;
+      margin: 150px 50px 50px 50px;
+      box-shadow: 10px 10px 7px black;
+      width: 320px;
+      height: 460px;
+      border: 1px solid;
+
+      
+      
+    }
+    main>img{
+      border-radius: 20px;
+      background-color: white;
+      padding: 5px ;
+      width:300px;
+      margin-left: 4px;
+      
+    }
+    section{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      padding: 15px 7px 3px;
+    }
+    text{
+      font-weight: lighter;
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: column wrap;
+    }
+
+    footer{
+      margin-top: 230px;
+    }
+    h1{
+      font-size: 23px;
+    }
+    #h1:hover{
+      color: #F2CA50;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+  <img src="./assets/images/illustration-article.svg" alt="">
+    <p style="background-color:#F2CA50 ; width: 60px; border-radius: 3px; padding: 5px;;"><strong> Learning </strong></p>
+    <p>Published 21 Dec 2023</p>
+     <h1 id="h1">HTML & CSS foundations</h1>
+       <p class="text" style="font-weight: lighter; font-size: 15px;">These lenguagens are the backbone of every website, defining structure, content, and presentation</p>
+     <section  class="last">
+       <img src="./assets/images/image-avatar.webp" alt="avatar">
+           <p> <strong>Greg Hooper</strong></p>
+     </section>
+  </main>
+ 
+  <footer>
+    <div class="end">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Davi</a>.
+    </div>
+  </footer>
+</body>
+</html>
